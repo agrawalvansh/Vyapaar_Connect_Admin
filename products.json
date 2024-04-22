@@ -1,0 +1,122 @@
+[
+  {
+    "no": 1,
+    "name": "Vastu Deep - 000",
+    "code": "DIY-V-000",
+    "stock": "250 pc",
+    "required": "250 pc",
+    "price": 45
+  },
+  {
+    "no": 2,
+    "name": "Vastu Deep - 00",
+    "code": "DIY-V-00",
+    "stock": "250 pc",
+    "required": "250 pc",
+    "price": 50
+  },
+  {
+    "no": 3,
+    "name": "Vastu Deep - 0",
+    "code": "DIY-V-0",
+    "stock": "300 pc",
+    "required": "300 pc",
+    "price": 60
+  },
+  {
+    "no": 4,
+    "name": "Vastu Deep - 1",
+    "code": "DIY-V-1",
+    "stock": "300 pc",
+    "required": "300 pc",
+    "price": 70
+  },
+  {
+    "no": 5,
+    "name": "Vastu Deep - 2",
+    "code": "DIY-V-2",
+    "stock": "200 pc",
+    "required": "200 pc",
+    "price": 95
+  },
+  {
+    "no": 6,
+    "name": "Vastu Deep - 3",
+    "code": "DIY-V-3",
+    "stock": "150 pc",
+    "required": "150 pc",
+    "price": 115
+  },
+  {
+    "no": 7,
+    "name": "Vastu Deep - 4",
+    "code": "DIY-V-4",
+    "stock": "120 pc",
+    "required": "120 pc",
+    "price": 135
+  },
+  {
+    "no": 8,
+    "name": "Vastu Deep - 5",
+    "code": "DIY-V-5",
+    "stock": "120 pc",
+    "required": "120 pc",
+    "price": 150
+  },
+  {
+    "no": 9,
+    "name": "Tomato Nandadeep - 00",
+    "code": "DIY-T-00",
+    "stock": "250 pc",
+    "required": 239,
+    "price": 52
+  },
+  {
+    "no": 10,
+    "name": "Tomato Nandadeep - 0",
+    "code": "DIY-T-0",
+    "stock": "250 pc",
+    "required": 239,
+    "price": 64
+  },
+  {
+    "no": 11,
+    "name": "Tomato Nandadeep - 1",
+    "code": "DIY-T-1",
+    "stock": "300 pc",
+    "required": 239,
+    "price": 75
+  },
+  {
+    "no": 12,
+    "name": "Tomato Nandadeep - 2",
+    "code": "DIY-T-2",
+    "stock": "200 pc",
+    "required": 239,
+    "price": 95
+  },
+  {
+    "no": 13,
+    "name": "Tomato Nandadeep - 3",
+    "code": "DIY-T-3",
+    "stock": "200 pc",
+    "required": 239,
+    "price": 115
+  },
+  {
+    "no": 14,
+    "name": "Tomato Nandadeep - 4",
+    "code": "DIY-T-4",
+    "stock": "120 pc",
+    "required": 239,
+    "price": 140
+  },
+  {
+    "no": 15,
+    "name": "Tomato Nandadeep - 5",
+    "code": "DIY-T-5",
+    "stock": "120 pc",
+    "required": 239,
+    "price": 180
+  }
+]

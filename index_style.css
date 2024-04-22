@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+.login-left{
+    height: 705px;
+    width: 50%;
+    position: fixed;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.login-left img{
+    height: 705px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.info h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.info p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.login-right{
+    height: 705px;
+    width: 49%;
+    position: relative;
+    left: 50%;
+    text-align: center;
+    color: #05014A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-right form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-right form input{
+    width: 80%;
+    height: 50px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #05014A;
+    outline: none;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.login-right form input::placeholder{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.login-right form button{
+    width: 80%;
+    height: 50px;
+    border: none;
+    background-color: #05014A;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.login-right form button:hover{
+    background-color: #0A0A47;
+}
+
+.login-right form p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}

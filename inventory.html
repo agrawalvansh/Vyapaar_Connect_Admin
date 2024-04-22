@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="inventory_style.css">
+</head>
+
+<body>
+    <div class="nav-pannel">
+        <ul>
+            <a href="profile.html">
+                <div class="pannel-name">
+                    <div class="nav-logo"><img src="AGS_Logo.png" alt="AGS"></div>
+                    <p>Amit General Stores</p>
+                </div>
+            </a>
+            <a href="dashboard.html">
+                <div class="pannel-options"><i class="fa-solid fa-gauge"></i>
+                    <li>Dashboard </li>
+                </div>
+            </a>
+            <a href="invoice.html">
+                <div class="pannel-options"><i class="fa-solid fa-file-invoice-dollar"></i>
+                    <li>Invoice</li>
+                </div>
+            </a>
+            <a href="estimate.html">
+                <div class="pannel-options"><i class="fa-solid fa-file-invoice"></i>
+                    <li>Estimate</li>
+                </div>
+            </a>
+            <a href="inventory.html">
+                <div class="pannel-options"><i class="fa-solid fa-file-invoice"></i>
+                    <li>Inventory</li>
+                </div>
+            </a>
+            <a href="price-list.html">
+                <div class="pannel-options"><i class="fa-solid fa-list"></i>
+                    <li>Price List</li>
+                </div>
+            </a>
+            <div class="dropdown" class="pannel-options">
+                <div class="pannel-options"><i class="fa-solid fa-credit-card"></i>
+                    <button class="dropbtn">Payments</button>
+                </div>
+                <div class="dropdown-content">
+                    <a href="payments_received.html">Received</a>
+                    <a href="payments_sent.html">Sent</a>
+                </div>
+            </div>
+            <div class="dropdown" class="pannel-options">
+                <div class="pannel-options"><i class="fa-solid fa-user"></i>
+                    <button class="dropbtn">Accounts</button>
+                </div>
+                <div class="dropdown-content">
+                    <a href="accounts_sellers.html">Sellers</a>
+                    <a href="accounts_buyers.html">Buyers</a>
+                </div>
+            </div>
+            <div class="dropdown" class="pannel-options">
+                <div class="pannel-options"><i class="fa-solid fa-clipboard-list"></i>
+                    <button class="dropbtn">Orders</button>
+                </div>
+                <div class="dropdown-content">
+                    <a href="order_received.html">Received</a>
+                    <a href="order_sent.html">Sent</a>
+                </div>
+            </div>
+            <a href="store.html">
+                <div class="pannel-options"><i class="fa-solid fa-store"></i>
+                    <li>Store</li>
+                </div>
+            </a>
+            <a href="reports.html">
+                <div class="pannel-options"><i class="fa-solid fa-square-poll-vertical"></i>
+                    <li>Reports</li>
+                </div>
+            </a>
+            <a href="index.html">
+                <div class="pannel-options"><i class="fa-solid fa-right-from-bracket"></i>
+                    <li>Logout</li>
+                </div>
+            </a>
+        </ul>
+    </div>
+
+    <header>
+        <div class="page-name">
+            <p>Inventory</p>
+        </div>
+
+        <div class="options">
+            <button class="option-1">
+                <i class="fa-solid fa-plus"></i>
+                <p>New</p>
+            </button>      
+
+            <button class="option-2">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <p>Find</p>
+            </button>
+        </div>
+    </header>
+
+    <div class="inventory-table">
+        <table>
+            <thead>
+                <tr>
+                    <th class="theader">No. </th>
+                    <th class="theader">Names <i class="fa-solid fa-arrow-down-short-wide"></i></th>
+                    <th class="theader">Code</th>
+                    <th class="theader">Stock <i class="fa-solid fa-arrow-down-short-wide"></i></th>
+                    <th class="theader">Rquired</th>
+                    <th class="theader">Price <i class="fa-solid fa-arrow-down-short-wide"></i></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>Vastu Deep - 000</td>
+                    <td>DIY-V-000</td>
+                    <td>250 pc</td>
+                    <td>250 pc</td>
+                    <td>45</td>
+                </tr>
+
+                <tr>
+                    <td>2.</td>
+                    <td>Vastu Deep - 00</td>
+                    <td>DIY-V-00</td>
+                    <td>250 pc</td>
+                    <td>250 pc</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Vastu Deep - 0</td>
+                    <td>DIY-V-0</td>
+                    <td>300 pc</td>
+                    <td>300 pc</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>Vastu Deep - 1</td>
+                    <td>DIY-V-1</td>
+                    <td>300 pc</td>
+                    <td>300 pc</td>
+                    <td>70</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>Vastu Deep - 2</td>
+                    <td>DIY-V-2</td>
+                    <td>200 pc</td>
+                    <td>200 pc</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td>Vastu Deep - 3</td>
+                    <td>DIY-V-3</td>
+                    <td>150 pc</td>
+                    <td>150 pc</td>
+                    <td>115</td>
+                </tr>
+                <tr>
+                    <td>7.</td>
+                    <td>Vastu Deep - 4</td>
+                    <td>DIY-V-4</td>
+                    <td>120 pc</td>
+                    <td>120 pc</td>
+                    <td>135</td>
+                </tr>
+                <tr>
+                    <td>8.</td>
+                    <td>Vastu Deep - 5</td>
+                    <td>DIY-V-5</td>
+                    <td>120 pc</td>
+                    <td>120 pc</td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td>9.</td>
+                    <td>Tomato Nandadeep - 00</td>
+                    <td>DIY-T-00</td>
+                    <td>250 pc</td>
+                    <td>350 pc</td>
+                    <td>52</td>
+                </tr>
+                <tr>
+                    <td>10.</td>
+                    <td>Tomato Nandadeep - 0</td>
+                    <td>DIY-T-0</td>
+                    <td>250 pc</td>
+                    <td>260 pc</td>
+                    <td>64</td>
+                </tr>
+                <tr>
+                    <td>11.</td>
+                    <td>Tomato Nandadeep - 1</td>
+                    <td>DIY-T-1</td>
+                    <td>300 pc</td>
+                    <td>350 pc</td>
+                    <td>75</td>
+                </tr>
+                <tr>
+                    <td>12.</td>
+                    <td>Tomato Nandadeep - 2</td>
+                    <td>DIY-T-2</td>
+                    <td>200 pc</td>
+                    <td>220 pc</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td>13.</td>
+                    <td>Tomato Nandadeep - 3</td>
+                    <td>DIY-T-3</td>
+                    <td>200 pc</td>
+                    <td>220 pc</td>
+                    <td>115</td>
+                </tr>
+                <tr>
+                    <td>14.</td>
+                    <td>Tomato Nandadeep - 4</td>
+                    <td>DIY-T-4</td>
+                    <td>120 pc</td>
+                    <td>240 pc</td>
+                    <td>140</td>
+                </tr>
+                <tr>
+                    <td>15.</td>
+                    <td>Tomato Nandadeep - 5</td>
+                    <td>DIY-T-5</td>
+                    <td>120 pc</td>
+                    <td>240 pc</td>
+                    <td>180</td>
+                </tr>
+                <tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="inventory_script.js"></script>
+    
+</body>
+
+</html>

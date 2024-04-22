@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="order-details_style.css">
+</head>
+<body>
+    <div class="nav-pannel">
+        <ul>
+            <a href="profile.html">
+                <div class="pannel-name">
+                    <div class="nav-logo"><img src="AGS_Logo.png" alt="AGS"></div>
+                    <p>Amit General Stores</p>
+                </div>
+            </a>
+            <a href="dashboard.html">
+                <div class="pannel-options"><i class="fa-solid fa-gauge"></i>
+                    <li>Dashboard </li>
+                </div>
+            </a>
+            <a href="invoice.html">
+                <div class="pannel-options"><i class="fa-solid fa-file-invoice-dollar"></i>
+                    <li>Invoice</li>
+                </div>
+            </a>
+            <a href="estimate.html">
+                <div class="pannel-options"><i class="fa-solid fa-file-invoice"></i>
+                    <li>Estimate</li>
+                </div>
+            </a>
+            <a href="inventory.html">
+                <div class="pannel-options"><i class="fa-solid fa-file-invoice"></i>
+                    <li>Inventory</li>
+                </div>
+            </a>
+            <a href="price-list.html">
+                <div class="pannel-options"><i class="fa-solid fa-list"></i>
+                    <li>Price List</li>
+                </div>
+            </a>
+            <div class="dropdown" class="pannel-options">
+                <div class="pannel-options"><i class="fa-solid fa-credit-card"></i>
+                    <button class="dropbtn">Payments</button>
+                </div>
+                <div class="dropdown-content">
+                    <a href="payments_received.html">Received</a>
+                    <a href="payments_sent.html">Sent</a>
+                </div>
+            </div>
+            <div class="dropdown" class="pannel-options">
+                <div class="pannel-options"><i class="fa-solid fa-user"></i>
+                    <button class="dropbtn">Accounts</button>
+                </div>
+                <div class="dropdown-content">
+                    <a href="accounts_sellers.html">Sellers</a>
+                    <a href="accounts_buyers.html">Buyers</a>
+                </div>
+            </div>
+            <div class="dropdown" class="pannel-options">
+                <div class="pannel-options"><i class="fa-solid fa-clipboard-list"></i>
+                    <button class="dropbtn">Orders</button>
+                </div>
+                <div class="dropdown-content">
+                    <a href="order_received.html">Received</a>
+                    <a href="order_sent.html">Sent</a>
+                </div>
+            </div>
+            <a href="store.html">
+                <div class="pannel-options"><i class="fa-solid fa-store"></i>
+                    <li>Store</li>
+                </div>
+            </a>
+            <a href="reports.html">
+                <div class="pannel-options"><i class="fa-solid fa-square-poll-vertical"></i>
+                    <li>Reports</li>
+                </div>
+            </a>
+            <a href="index.html">
+                <div class="pannel-options"><i class="fa-solid fa-right-from-bracket"></i>
+                    <li>Logout</li>
+                </div>
+            </a>
+        </ul>
+    </div>
+
+    <div class="invoice-center">
+        <div class="add-center">
+            <div class="logo-center"><img src="Radha Metals_Logo.jpeg" alt="AGS"></div>
+            <div class="add">
+                <p class="add-Name">Amit General Stores</p>
+                <p>4453, Goenka Dharamshala, Ramghat, Panchvati, Nashik - 422003</p>
+                <p>Ph : 9595581555</p>
+                <p>GST:29GGGGG1314R9Z6</p>
+            </div>
+
+            <div class="add">
+                <p class="add-Name">Radha Metals</p>
+                <p>406, Matha Gali, Mathura, UP.</p>
+                <p>Ph : 7378882317</p>
+                <p>GST:22AAAAA0000A1Z5</p>
+            </div>
+        </div>
+
+        <div class="center-info">
+            <p class="info-name">Order Details</p>
+            <br>
+            <p class="info-num">Order No. : </p>
+            <p class="info-num">ORD-000232</p>
+            <br><br>
+            <p class="info-date">Date : </p>
+            <p class="info-date">23/04/2023</p>
+            <br>
+            <p class="info-time">Time : </p>
+            <p class="info-time">8:15:15 pm</p>
+           
+        </div>
+
+        <div class="bill-center">
+            <table>
+                <thead>
+                    <tr>
+                        <th>No. </th>
+                        <th>Items</th>
+                        <th>Quantity</th>
+                        <th>Rate</th>
+                        <th>GST (18%)</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>Radha Krishna - 500gm</td>
+                        <td>2.540 kg</td>
+                        <td>1200 ₹/Kg</td>
+                        <td>464</td>
+                        <td>3048</td>
+                    </tr>
+
+                    <tr>
+                        <td>2.</td>
+                        <td>SP. Ganpati </td>
+                        <td>8 pc</td>
+                        <td>160 ₹/pc</td>
+                        <td>194</td>
+                        <td>1280</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>SP. Ragnath</td>
+                        <td>12 pc</td>
+                        <td>120 ₹/pc</td>
+                        <td>220</td>
+                        <td>1440</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>SP. Ragnath Morpank</td>
+                        <td>9 pc</td>
+                        <td>165 ₹/pc</td>
+                        <td>226</td>
+                        <td>1485</td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>Tamba Niranjan</td>
+                        <td>1.375 kg</td>
+                        <td>1200 ₹/Kg</td>
+                        <td>250</td>
+                        <td>1650</td>
+                    </tr>
+                    <tr>
+                        <td>6.</td>
+                        <td>Payali Deep - 1 no.</td>
+                        <td>24 pc</td>
+                        <td>45 ₹/pc</td>
+                        <td>165</td>
+                        <td>1080</td>
+                    </tr>
+                    <tr>
+                        <td>7.</td>
+                        <td>Payali Deep - 2 no.</td>
+                        <td>12 pc</td>
+                        <td>55 ₹/pc</td>
+                        <td>101</td>
+                        <td>660</td>
+                    </tr>
+                    <tr>
+                        <td>8.</td>
+                        <td>Payali Deep - 3 no.</td>
+                        <td>24 pc</td>
+                        <td>65 ₹/pc</td>
+                        <td>239</td>
+                        <td>1560</td>
+                    </tr>
+                    <tr>
+                        <td>8.</td>
+                        <td>Payali Deep - 3 no.</td>
+                        <td>24 pc</td>
+                        <td>65 ₹/pc</td>
+                        <td>239</td>
+                        <td>1560</td>
+                    </tr>
+                    <tr>
+                        <td>8.</td>
+                        <td>Payali Deep - 3 no.</td>
+                        <td>24 pc</td>
+                        <td>65 ₹/pc</td>
+                        <td>239</td>
+                        <td>1560</td>
+                    </tr>
+                    <tr>
+                        <td>8.</td>
+                        <td>Payali Deep - 3 no.</td>
+                        <td>24 pc</td>
+                        <td>65 ₹/pc</td>
+                        <td>239</td>
+                        <td>1560</td>
+                    </tr>
+                    <tr>
+                        <td>8.</td>
+                        <td>Payali Deep - 3 no.</td>
+                        <td>24 pc</td>
+                        <td>65 ₹/pc</td>
+                        <td>239</td>
+                        <td>1560</td>
+                    </tr>
+                    <tr>
+                        <td>8.</td>
+                        <td>Payali Deep - 3 no.</td>
+                        <td>24 pc</td>
+                        <td>65 ₹/pc</td>
+                        <td>239</td>
+                        <td>1560</td>
+                    </tr>
+                    <tr class="table-total">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Total</td>
+                        <td>12,203</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
